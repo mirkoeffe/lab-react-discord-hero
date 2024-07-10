@@ -1,6 +1,7 @@
 import "./App.css";
 import Logo from "../src/assets/discord-logo-white.png";
 import MenuLogo from "../src/assets/menu-icon.png";
+import BgImage from "../src/assets/discord-background.png";
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
         <button className="BrowserApp">Open Discord on your browser</button>
       </div>
       <div className="bgImage">
-        <img src="./src/assets/discord-background.png" alt="Background Image" />
+        <img src={BgImage} alt="Background Image" />
       </div>
     </div>
   );
